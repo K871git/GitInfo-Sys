@@ -3,4 +3,24 @@ git --version
 
 # global stuff :: setting an username and email and password 
 git config --global user.name "Name"
+git config --global user.emaol "example@mail.com"
 git config --global --list
+
+# cloning 
+git clone <link of the repo on the github account>
+
+# ls,dir    : list directory
+# cd        : change directory    
+
+# modify files 
+git status 
+
+1) untracked    : new files in repo that haven't tracked yet 
+    git add <filename> or (.) for all changes
+2) modified     : changed files
+    git status  : this will show the changed (red color) and staged(green) files 
+    git diff    : to see the change
+3) staged       : files or changes are ready to be commited 
+4) unmodified   : No changes since last commit :: git status shows clean
+
+# git commit will unstage the files i mean save the screenshot of change
