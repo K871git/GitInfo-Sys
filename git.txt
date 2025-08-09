@@ -1,2 +1,6 @@
 # basic commands 
 git --version 
+
+# global stuff :: setting an username and email and password 
+git config --global user.name "Name"
+git config --global --list
