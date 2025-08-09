@@ -24,3 +24,10 @@ git status
 4) unmodified   : No changes since last commit :: git status shows clean
 
 # git commit will unstage the files i mean save the screenshot of change
+
+to avoid the PAGER classic (END) of the terminal or paninator that show the result one by one 
+
+git --no-pager log : for single command 
+
+git config --global pager.log false : to make it permanant
+
