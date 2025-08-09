@@ -1,2 +1,2 @@
-# GitInfo-Sys
-This Repo created only for course related purpose on 29th feb
+# name changed from Infosys to the Git all in one repo
+updating this git repository
