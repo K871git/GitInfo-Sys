@@ -31,5 +31,13 @@ git --no-pager log : for single command
 
 git config --global pager.log false : to make it permanant
 
-# commit message
+# commit message 
+Your branch is ahead of 'origin/main' by 1 commit: means this local repo is up to date but main github branch does not contain
+this modified change
 
+# push and pull 
+# git push origin main : pushing changes to the main branch 
+
+# making an local repo 
+# add and commit the changes 
+    git remote add origin <link>
