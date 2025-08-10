@@ -31,3 +31,5 @@ git --no-pager log : for single command
 
 git config --global pager.log false : to make it permanant
 
+# commit message
+
