@@ -6,6 +6,12 @@ git config --global user.name "Name"
 git config --global user.emaol "example@mail.com"
 git config --global --list
 
+# system-wide settings rarely modified:
+git config --system --list
+
+# local repo-specific settings:
+git config --local --list
+
 # cloning 
 git clone <link of the repo on the github account>
 
