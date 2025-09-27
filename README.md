@@ -15,4 +15,3 @@ When stuck at (END):
  # Use ↑ or ↓ to scroll line-by-line.
  # Use Space to page down.
  # Use b to page up.
-
