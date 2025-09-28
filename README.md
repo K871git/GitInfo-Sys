@@ -32,10 +32,14 @@ When stuck at (END):
         fatal: 'main' cannot be resolved to branch
     
 # 🧯 Fix: "fatal: main cannot be resolved to branch"
-        # checkout remote branches : if the output looking like this : origin/main then : then add it for tracking local changes
-            git checkout -b main origin/main :like this I can add any branch to the local for tracking
+      # varifying the local branches exists : git branch -r 
+      # If you see origin/main, create a local branch that tracks it: git checkout -b main origin/main
+      # checkout remote branches : if the output looking like this : origin/main then : then add it for tracking local changes
+      # if I dont see anythning like origin/main stuff then need to know what remote points out by
+        # git remote show origin
+        then after confirmation make command :
+        # git checkout master(or any branch that will see after the command)
+        # git checkout -b main origin/main :like this I can add any branch to the local for tracking
 
-        and if you dont know the default branch name then just type : git remote show origin
-        this command will show about default branch name : HEAD master : then switch to the master using command :
-        git checkout master
-        and
+        HEAD master : then switch to the master using command :
+        git checkout masters
